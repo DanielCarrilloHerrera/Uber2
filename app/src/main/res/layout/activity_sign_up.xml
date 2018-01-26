@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="uber.uber.example.com.uber2.SignUpActivity">
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="62dp"
+        android:ems="10"
+        android:background="@drawable/my_shape"
+        android:inputType="textPersonName"
+        android:hint="Enter your name"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText5"
+        android:layout_marginTop="49dp"
+        android:ems="10"
+        android:hint="Enter your email"
+        android:background="@drawable/my_shape"
+        android:inputType="textEmailAddress"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText6"
+        android:layout_marginTop="51dp"
+        android:ems="10"
+        android:background="@drawable/my_shape"
+        android:inputType="textPassword"
+        android:hint="Enter your password"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/editText7"
+        android:layout_marginEnd="155dp"
+        android:layout_marginTop="77dp"
+        android:background="@drawable/my_shape"
+        android:onClick="signUpUser"
+        android:text="REGISTER"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="155dp" />
+</RelativeLayout>
